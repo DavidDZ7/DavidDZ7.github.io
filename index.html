@@ -23,8 +23,8 @@
 				<nav id="nav">
 					<ul>
 						<li><a href="#about" class="active">About</a></li>
-						<li><a href="#work">Work Experience</a></li>
-						<li><a href="#portfolio">Research Experience / Projects</a></li>
+						<li><a href="#portfolio">Projects & Publications</a></li>
+						<li><a href="#work">Work Experience</a></li>						
 						<li><a href="#education">Educational Background</a></li>
 						<li><a href="#skills">Technical Skills</a></li>
 						<li><a href="#honors">Awards and Scholarships</a></li>
@@ -67,6 +67,86 @@
 								</div>
 							</section>
 
+						<!-- Portfolio -->
+						<section id="portfolio">
+							<div class="container">
+								<h3>Projects & Publications</h3>
+								<p>Here are some of my projects and research publications:</p>
+								<div class="features">
+									<article>
+										<h4><a href="https://github.com/DavidDZ7/DNimageEditor">DN Image Editor</a></h4>
+										<a href="https://github.com/DavidDZ7/DNimageEditor" class="image"><img src="images/DNimageEditor.png" alt="" /></a>
+										<div class="inner">
+												
+											<p>I developed '<b>DN Image Editor</b>': A <b>Python</b>-based image editor specialized in color palette mapping and other artistic <b>image filters</b>.
+											Allows to map any color palette to an image with different <b>color mapping</b> modes (Fuzzy, Euclidean, Light-based).
+											Supports a palette <b>database</b>, custom <b>color palette edition</b>, generation, and extraction (from images, using <b>k-means</b>).											
+											<br>&bull;Watch the <a href="https://youtu.be/Vg87ZTrkO_c" style="font-weight: bold; color: #0070c9;">demo video</a>
+											and check out the <a href="https://github.com/DavidDZ7/DNimageEditor" style="font-weight: bold; color: #0070c9;">GitHub repo</a>.												
+											<br>&bull;<b> Skills: Python, OpenCV, Pillow, Scikit-Learn, Matplotlib, NumPy, CustomTkinter, GUI, Git.  </b>														  
+											</p>
+										</div>
+									</article>
+									<article>
+										<h4><a href="https://ieeexplore.ieee.org/document/9784135">Ψ-NET: A Novel Encoder-Decoder Architecture for Animal Segmentation</a></h4>	
+										<a href="https://ieeexplore.ieee.org/document/9784135" class="image"><img src="images/paper2.jpg" alt="" /></a>
+										<div class="inner">											
+											<p>In this paper, we propose a novel Ψ-Net architecture that consists of three encoders and a decoder for animal <b>image segmentation</b>.
+											 We created a new dataset where we <b>manually labeled</b> the ground-truth segmentation masks for 200 pig images.
+											 We trained our <b>proposed model Ψ-Net</b> on this dataset and compared the segmentation accuracy with the <b>U-Net</b> and <b>Y-Net</b> architectures.
+											 Our proposed model achieved the highest accuracy on the dataset with 93% pixel accuracy, and 81.6% mean intersection-over-union (IoU).										
+											 <br>&bull;<b> Skills: Python, Tensorflow, OpenCV, LaTex.</b>																						  
+											 <br>&bull; <a href="https://ieeexplore.ieee.org/document/9784135" style="font-weight: bold; color: #0070c9;">See IEEE publication</a>
+											</p>
+										</div>
+									</article>
+									<article>
+										<h4><a href="https://ieeexplore.ieee.org/document/9784142">Impact of Pooling Methods on Image Quality Metrics</a></h4>
+										<a href="https://ieeexplore.ieee.org/document/9784142" class="image"><img src="images/paper1.png" alt="" /></a>
+										<div class="inner">																
+											<p>In this paper, we investigate the impact of different <b>pooling</b> techniques on the performance of <b>image quality</b> metrics.
+												We have tested different pooling methods with the SSIM and S-CIELAB image quality metrics in the CID:IQ database,
+												and found that the pooling technique has a significant impact on their performance.
+												<br>&bull;<b> Skills: MATLAB, LaTex, Statistics</b>.
+												<br>&bull;<a href="https://ieeexplore.ieee.org/document/9784142" style="font-weight: bold; color: #0070c9;">See IEEE publication</a>
+											</p>
+											
+										</div>
+									</article>
+									<article>
+										<h4><a href="https://github.com/DavidDZ7/VideoColorization">Automatic Video Colorization with Deep Learning</a></h4>	
+										<a href="https://github.com/DavidDZ7/VideoColorization" class="image"><img src="images/project_videoColorization.png" alt="" /></a>  
+										<div class="inner">											
+											<p>In this project, I explored different <b>encoder-decoder</b> architectures for Image Colorization based on L*a*b* color space and created a framework for Automatic Video Colorization.
+												I cleaned the Places 365 dataset and trained 5 different models from scratch. I used <b>VGG16</b> and <b>ResNet50</b> for the transfer learning.
+												Model M5 gave the best results with ResNet50 as backbone.
+												<br>&bull;<b> Skills: Python, Tensorflow, OpenCV, MATLAB.</b>
+												<br>&bull;Watch the <a href="https://user-images.githubusercontent.com/55857465/255644514-c8b66ad2-cd56-444c-9cba-73aa0e325c04.mp4" style="font-weight: bold; color: #0070c9;">demo video</a>
+												and check out the <a href="https://github.com/DavidDZ7/VideoColorization" style="font-weight: bold; color: #0070c9;">GitHub repo</a>.					
+											</p>
+										</div>
+									</article>
+									
+									<article>
+										<h4>Autonomous Heat Follower Vehicle</h4>
+										<a class="image"><img src="images/project_heatFollower1.jpg" alt="" /></a>
+										<div class="inner">												
+											<p>In this project, I used <b>Python</b> and a <b>RaspberryPi3</b> for <b>image processing</b> of an Adafruit AMG8833 IR <b>Thermal Camera</b>. 
+												The heat image provided by the camera module is processed to determine the location of the heat source and control the direction of 2 dc motors.
+												The user can see the heat image in real-time on his smartphone by using VNC viewer.
+												It also uses an ultrasonic sensor HC-SR04 to measure distance and avoid obstacles.
+												Moreover, I designed the vehicle's chassis in <b>SolidWorks</b>.
+												<br>&bull;<b> Skills: Python, RaspberryPi, Image Processing, SolidWorks, Mechanical Design.</b>
+												<!-- <br><a href="" style="font-weight: bold;">See project</a> -->									
+											</p>
+										</div>
+									</article>
+									
+								</div>
+							</div>
+						</section>
+
+
 						<!-- Work -->
 						<section id="work">
 							<div class="container">
@@ -75,14 +155,15 @@
 								<div class="features">
 									<article>
 										<div>
-											<h4>Computer Vision Intern at Vilmorin-Mikado [Master thesis] (France)</h4>
+											<h4>Computer Vision Research Intern at Vilmorin-Mikado [Master thesis] (France)</h4>
 											<p>	
 												<b>01/2022 - 07/2022</b><br>
 												<ul>
-													<li>I conducted <b>research</b> and developed <b>Deep Learning</b> solutions for <b>instance segmentation</b> of fruits and vegetables under uncontrolled environment, using Detectron2.</li>
-													<li>I developed a pipeline based on <b>CycleGAN</b> for image generation and creation of synthetic datasets for instance segmentation of fruits/vegetables.</li>
-													<li>I developed a carrot segmentation model under uncontrolled illumination conditions, using <b>Mask R-CNN</b> with <b>RestnetXt-101</b> as the backbone.
-														Where the highest F1 score was 93% on validation images of real carrots, achieved by the models that incorporate fake carrot data during training, and the best AP of 74.5% in test images.</li>											
+													<li>I conducted <b>research</b> by reading more than 30 papers on <b>GANs</b> and <b>Deep Learning</b> based image <b>segmentation</b>.</li>
+													<li>I developed an <b>end-to-end Deep Learning pipeline</b> encompassing all stages from model selection, data cleaning and preprocessing,
+														model training/evaluation, and deployment in the company's <b>GPUs</b>. I used <b>CycleGAN</b> for image generation and creation of synthetic
+														datasets for <b>instance segmentation</b> of fruits/vegetables under uncontrolled lighting environment</li>
+													<li>Developed a carrot segmentation model (<b>Mask R-CNN</b>, <b>RestnetXt-101</b>, <b>Detectron2</b>), where the highest F1 score was 93% on validation images of real carrots</li>											
 													<li><b>Skills: Python, Tensorflow, OpenCV, Scikit-Learn, Detectron2, GANs, Latex, Git, Azure DevOps.</b></li>
 													<li><a href="https://ntnuopen.ntnu.no/ntnu-xmlui/handle/11250/3023082" style="font-weight: bold;">See master thesis abstract</a></li>
 												</ul>							
@@ -97,8 +178,7 @@
 												<ul>
 													<li>I worked as a Teaching Assistant (TA) for the course <a href="https://www.ntnu.edu/studies/courses/IDIG4002#tab=omEmnet" style="font-weight: bold;">IDIG4002 Computer Graphics</a> at NTNU, Gjøvik.</li>
 													<li>Gave the lab sessions to 39 international master students from the COSI and MACs programs.</li>
-													<li>My duties included giving presentations in English, lab material preparation (exercises in <a href="https://pbrt.org/users-guide-v4" style="font-weight: bold;">PBRT</a>),
-														guide/supervise students in their assignments and final projects.</li>
+													<li>Gave <b>presentations in English</b>, prepared lab exercises in <a href="https://pbrt.org/users-guide-v4" style="font-weight: bold;">PBRT</a>, supervised students in their assignments and final projects.</li>
 													<li><b>Skills: PBRT, Rendering, Computer Graphics, Teaching.</b></li>
 												</ul>												
 											</p>
@@ -111,8 +191,8 @@
 												<ul>
 													<li>I worked as an <b>image processing</b> intern for a 6-week summer project for melon <b>segmentation</b>.</li>
 													<li>Developed and tested new <b>segmentation algorithms</b> for different melon typologies.</li>
-													<li>Documented code via <b>Git</b> and <b>Azure</b> DevOps.</li>
-													<li>Communication with remote teams in English.</li>
+													<li><b>Documented code</b> via <b>Git</b> and <b>Azure</b> DevOps.</li>
+													<li><b>Communicated</b> with <b>remote teams</b> in English.</li>
 													<li><b>Skills: MATLAB, Git, Azure DevOps.</b></li>
 												</ul>
 												
@@ -129,7 +209,7 @@
 													<li>Carried out <b>frontend</b> and <b>API testing</b> trough <b>Postman</b> and <b>ZenHub</b> (report bugs/enhancements).</li>
 													<li>Gathered <b>user feedback</b> (Hotjar insights and phone interviews).</li>
 													<li>Carried out market research and analysis for software features.</li>
-													<li>Carried out daily communication with virtual and international teams both in English and Spanish.</li>
+													<li>Carried out <b>daily communication</b> with virtual and <b>international teams</b> both in English and Spanish.</li>
 													<li><b>Led a team</b> of 4 people that created the first version of a mathematical model for price rating.</li> 													
 													<li><b>Skills: Quality Assurance, Agile Development, Testing, Postman, Zenhub, Marketplace Research.</b></li>
 												</ul>
@@ -161,84 +241,7 @@
 							</div>
 						</section>
 
-						<!-- Portfolio -->
-						<section id="portfolio">
-							<div class="container">
-								<h3>Research Experience / Projects</h3>
-								<p>Here are some of my publications and projects:</p>
-								<div class="features">
-									<article>
-										<a href="https://ieeexplore.ieee.org/document/9784135" class="image"><img src="images/paper2.jpg" alt="" /></a>
-										<div class="inner">
-											<h5><a href="https://ieeexplore.ieee.org/document/9784135">Ψ-NET: A Novel Encoder-Decoder Architecture for Animal Segmentation</a></h5>	
-											<p>In this paper we propose a novel Ψ-Net architecture that consists of three encoders and a decoder for animal <b>image segmentation</b>.
-											 We created a new dataset were we <b>manually labeled</b> the ground-truth segmentation masks for 200 pig images.
-											 We trained our <b>proposed model Ψ-Net</b> on this dataset and compared the segmentation accuracy with the <b>U-Net</b> and <b>Y-Net</b> architectures.
-											 Our proposed model achieved the highest accuracy on the dataset with 93% pixel accuracy, and 81.6% mean intersection-over-union (IoU).
-											 
-											 <br><b>&bull; Skills: Python, Tensorflow, OpenCV, LaTex.</b>
-																						  
-											 <br><a href="https://ieeexplore.ieee.org/document/9784135" style="font-weight: bold;">See publication</a>
-											</p>
-										</div>
-									</article>
-									<article>
-										<a href="https://ieeexplore.ieee.org/document/9784142" class="image"><img src="images/paper1.png" alt="" /></a>
-										<div class="inner">
-											<h5><a href="https://ieeexplore.ieee.org/document/9784142">Impact of Pooling Methods on Image Quality Metrics</a></h5>					
-											<p>In this paper we investigate the impact of different <b>pooling</b> techniques on the performance of <b>image quality</b> metrics.
-												We have tested different pooling methods with the SSIM and S-CIELAB image quality metrics in the CID:IQ database,
-												and found that the pooling technique has a significant impact on their performance.
-												<br><b>&bull; Skills: MATLAB, LaTex, Statistics</b>.
-												<br><a href="https://ieeexplore.ieee.org/document/9784142" style="font-weight: bold;">See publication</a>
-											</p>
-											
-										</div>
-									</article>
-									<article>
-										<a href="https://github.com/DavidDZ7/VideoColorization" class="image"><img src="images/project_videoColorization.png" alt="" /></a>
-										<div class="inner">
-											<h5><a href="https://github.com/DavidDZ7/VideoColorization">Automatic Video Colorization with Deep Learning</a></h5>	
-											<p>In this project I explored different <b>encoder-decoder</b> architectures for Image Colorization based on L*a*b* color space and created a framework for Automatic Video Colorization.
-												I cleaned the places 365 dataset and trained 5 different models from scratch. I used <b>VGG16</b> and <b>ResNet50</b> for the transfer learning.
-												Model M5 gave the best results with ResNet50 as backbone.
-												<br><b>&bull; Skills: Python, Tensorflow, OpenCV, MATLAB.</b>
-												<br><a href="https://github.com/DavidDZ7/VideoColorization" style="font-weight: bold;">See project</a>									
-											</p>
-										</div>
-									</article>
-									<article>
-										<a href="https://github.com/kresovicmilan/domain-adaptation-and-image-dehazing-on-nighttime-hazy-images" class="image"><img src="images/project_dehazing.png" alt="" /></a>
-										<div class="inner">
-											<h5><a href="https://github.com/kresovicmilan/domain-adaptation-and-image-dehazing-on-nighttime-hazy-images">Domain Adaptation and Image Dehazing on Nighttime Hazy Image</a></h5>	
-											<p>In this project, Milan, Thong and me, performed a domain adaptation module to dehaze nighttime hazy images.
-												Milan developed a state-of-the-art GASDA algorithm to train on real and hazy images in order to obtain the depth of images,
-												Thong implemented the <b>CycleGAN</b> to train domain adaption on our dataset (synthetic and real images) 
-												and I wrote the python scripts for <b>web scraping</b> publicly available real nighttime hazy images and implement different metrics in <b>MATLAB</b> for model evaluation such as MSE, PSNR, SSIM, CIEDE2000, BRISQUE, FADE.
-												Our result outperformed existing state-of-the-art approaches in term of real nighttime image dehazing but the result for nighttime synthetic image dehazing was not good and needed for further research. 
-												<br><b>&bull; Skills: Python, MATLAB, Web Scrapping.</b>
-												<br><a href="https://github.com/kresovicmilan/domain-adaptation-and-image-dehazing-on-nighttime-hazy-images" style="font-weight: bold;">See project</a>									
-											</p>
-										</div>
-									</article>
-									<article>
-										<a class="image"><img src="images/project_heatFollower1.jpg" alt="" /></a>
-										<div class="inner">
-											<h5>Autonomous Heat Follower Vehicle.</h5>	
-											<p>In this project, I used <b>Python</b> and a <b>RaspberryPi3</b> for <b>image processing</b> of an Adafruit AMG8833 IR Thermal Camera. 
-												The heat image provided by the <b>camera module</b> is processed to determine the location of the heat source and control the direction of 2 dc motors.
-												The user can see the heat image in real-time on his smartphone by using VNC viewer.
-												It also uses an ultrasonic sensor HC-SR04 to measure distance and avoid obstacles.
-												Moreover, I designed the vehicle's chassis in <b>SolidWorks</b>.
-												<br><b>&bull; Skills: Python, RaspberryPi, Image Processing, SolidWorks, Mechanical Design.</b>
-												<!-- <br><a href="" style="font-weight: bold;">See project</a> -->									
-											</p>
-										</div>
-									</article>
-									
-								</div>
-							</div>
-						</section>
+
 
 						<!-- Education -->
 						<section id="education">
@@ -320,9 +323,9 @@
 									<h3>Technical Skills</h3>
 									<ul>
 										<li><b>Programing languages:</b><br>
-											<b>Python</b> (Tensorflow, OpenCV, Scikit-learn, Pandas, NumPy, Tkinter, Psychopy).<br>
+											<b>Python</b> (Tensorflow, OpenCV, Scikit-learn, Pandas, NumPy, Matplotlib, Tkinter, Psychopy).<br>
 											<b>MATLAB</b> (Image Processing, Fuzzy Logic, Neural Networks, Simulink, Simscape).<br>
-											JavaScript (P5.js), C++, R, SQL, Ladder (PLC), Assembly, HTML/CSS.
+											JavaScript (P5.js), HTML/CSS, C++, R, SQL, Ladder (PLC), Assembly.
 										</li>
 										<li><b>Software/tools:</b><br>
 											RaspberryPi, Arduino, Git, LaTex, PBRT, Mitsuba renderer, LabVIEW, SolidWorks, Pspice, Photoshop.
