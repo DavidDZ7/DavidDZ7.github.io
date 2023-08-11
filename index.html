@@ -95,7 +95,7 @@
 											 We created a new dataset where we <b>manually labeled</b> the ground-truth segmentation masks for 200 pig images.
 											 We trained our <b>proposed model Ψ-Net</b> on this dataset and compared the segmentation accuracy with the <b>U-Net</b> and <b>Y-Net</b> architectures.
 											 Our proposed model achieved the highest accuracy on the dataset with 93% pixel accuracy, and 81.6% mean intersection-over-union (IoU).										
-											 <br>&bull;<b> Skills: Python, Tensorflow, OpenCV, LaTex.</b>																						  
+											 <br>&bull;<b> Skills: Python, Tensorflow, OpenCV, LaTex, Research.</b>																						  
 											 <br>&bull; <a href="https://ieeexplore.ieee.org/document/9784135" style="font-weight: bold; color: #0070c9;">See IEEE publication</a>
 											</p>
 										</div>
@@ -107,7 +107,7 @@
 											<p>In this paper, we investigate the impact of different <b>pooling</b> techniques on the performance of <b>image quality</b> metrics.
 												We have tested different pooling methods with the SSIM and S-CIELAB image quality metrics in the CID:IQ database,
 												and found that the pooling technique has a significant impact on their performance.
-												<br>&bull;<b> Skills: MATLAB, LaTex, Statistics</b>.
+												<br>&bull;<b> Skills: MATLAB, LaTex, Statistics, Research</b>.
 												<br>&bull;<a href="https://ieeexplore.ieee.org/document/9784142" style="font-weight: bold; color: #0070c9;">See IEEE publication</a>
 											</p>
 											
@@ -117,8 +117,8 @@
 										<h4><a href="https://github.com/DavidDZ7/VideoColorization">Automatic Video Colorization with Deep Learning</a></h4>	
 										<a href="https://github.com/DavidDZ7/VideoColorization" class="image"><img src="images/project_videoColorization.png" alt="" /></a>  
 										<div class="inner">											
-											<p>In this project, I explored different <b>encoder-decoder</b> architectures for Image Colorization based on L*a*b* color space and created a framework for Automatic Video Colorization.
-												I cleaned the Places 365 dataset and trained 5 different models from scratch. I used <b>VGG16</b> and <b>ResNet50</b> for the transfer learning.
+											<p>In this project, I implemented different <b>encoder-decoder</b> architectures for Image Colorization based on <b>L*a*b* color space</b> and created a framework for Automatic Video Colorization.
+												I cleaned the Places 365 dataset and trained 5 different models from scratch. I used <b>VGG16</b> and <b>ResNet50</b> for the <b>transfer learning</b>.
 												Model M5 gave the best results with ResNet50 as backbone.
 												<br>&bull;<b> Skills: Python, Tensorflow, OpenCV, MATLAB.</b>
 												<br>&bull;Watch the <a href="https://user-images.githubusercontent.com/55857465/255644514-c8b66ad2-cd56-444c-9cba-73aa0e325c04.mp4" style="font-weight: bold; color: #0070c9;">demo video</a>
@@ -126,17 +126,43 @@
 											</p>
 										</div>
 									</article>
-									
+									<article>
+										<h4><a href="https://github.com/DavidDZ7/RenderingAutomation">Impact of Motion on Translucency Perception</a></h4>	
+										<a href="https://github.com/DavidDZ7/RenderingAutomation" class="image"><img src="images/v01.gif" alt="" /></a>  
+										<div class="inner">											
+											<p> In this project, I designed and coded a <b>binary classification experiment</b> in <b>Psychopy</b>.
+												Gathered <b>17 observers</b> and <b>analyzed</b> the <b>data</b> with <b>Python</b> and <b>Pandas</b>. <b>Calibrated</b> an Eizo CG246 <b>display</b> for <b>sRGB</b> encoding.
+											    <b>Created a dataset</b> of 12 <b>video stimuli</b> with 2 types of motion and 6 different materials using <b>Mitsuba renderer</b> and <b>OpenCV</b>.
+											    <b>Automated</b> the <b>rendering</b> process (444 frames, 110 rendering hours) with <b>Python</b> and <b>batch scripts</b>, see the <a href="https://github.com/DavidDZ7/RenderingAutomation" style="font-weight: bold; color: #0070c9;">GitHub repo</a>. 
+												<br>&bull;<b> Skills: Design of experiments, Data Analysis, Material Appearance, Python, Pandas, OpenCV, Psychopy, Automation, Rendering, Research.</b>
+																	
+											</p>
+										</div>
+									</article>
+									<article>
+										<h4><a href="https://github.com/DavidDZ7/p5js_projects">Creative Coding with p5.js</a></h4>	
+										<a href="https://github.com/DavidDZ7/p5js_projects" class="image"><img src="images/breakout.gif" alt="" /></a>  
+										<div class="inner">											
+											<p> A project series where I code games and animations in JavaScript, using the p5.js library.</b>
+												<br>&bull; Check out the <a href="https://github.com/DavidDZ7/p5js_projects" style="font-weight: bold; color: #0070c9;">GitHub repo</a>. 
+												<br>&bull; Play the games I have coded:
+												<a href="https://daviddz7.github.io/tictactoe/" style="font-weight: bold; color: #0070c9;">Tic Tac Toe</a>,
+												<a href="https://daviddz7.github.io/pong/" style="font-weight: bold; color: #0070c9;">Pong</a>,
+												<a href="https://daviddz7.github.io/breakout/" style="font-weight: bold; color: #0070c9;">Breakout</a>												
+												<br>&bull;<b> Skills: JavaScript, p5.js, Game Development, Animation.</b>																	
+											</p>
+										</div>
+									</article>
 									<article>
 										<h4>Autonomous Heat Follower Vehicle</h4>
 										<a class="image"><img src="images/project_heatFollower1.jpg" alt="" /></a>
 										<div class="inner">												
-											<p>In this project, I used <b>Python</b> and a <b>RaspberryPi3</b> for <b>image processing</b> of an Adafruit AMG8833 IR <b>Thermal Camera</b>. 
+											<p>In this project, I used <b>Python</b> and a <b>Raspberry Pi3</b> for <b>real-time image processing</b> of an Adafruit AMG8833 IR <b>Thermal Camera</b>. 
 												The heat image provided by the camera module is processed to determine the location of the heat source and control the direction of 2 dc motors.
-												The user can see the heat image in real-time on his smartphone by using VNC viewer.
+												The user can see the heat image on his smartphone by using VNC viewer.
 												It also uses an ultrasonic sensor HC-SR04 to measure distance and avoid obstacles.
 												Moreover, I designed the vehicle's chassis in <b>SolidWorks</b>.
-												<br>&bull;<b> Skills: Python, RaspberryPi, Image Processing, SolidWorks, Mechanical Design.</b>
+												<br>&bull;<b> Skills: Python, RaspberryPi, Image Processing, SolidWorks, Electronics, Mechanical Design.</b>
 												<!-- <br><a href="" style="font-weight: bold;">See project</a> -->									
 											</p>
 										</div>
@@ -159,11 +185,12 @@
 											<p>	
 												<b>01/2022 - 07/2022</b><br>
 												<ul>
-													<li>I conducted <b>research</b> by reading more than 30 papers on <b>GANs</b> and <b>Deep Learning</b> based image <b>segmentation</b>.</li>
-													<li>I developed an <b>end-to-end Deep Learning pipeline</b> encompassing all stages from model selection, data cleaning and preprocessing,
-														model training/evaluation, and deployment in the company's <b>GPUs</b>. I used <b>CycleGAN</b> for image generation and creation of synthetic
+													<li>Conducted <b>research</b> by reading more than 30 papers on <b>GANs</b> and <b>Deep Learning</b> based image <b>segmentation</b>.</li>
+													<li>Developed an <b>end-to-end Deep Learning pipeline</b> encompassing all stages from model selection, data cleaning and preprocessing,
+														model training/evaluation, and deployment in the company's <b>GPUs</b>. I used <b>CycleGAN</b> for <b>image generation</b> and creation of synthetic
 														datasets for <b>instance segmentation</b> of fruits/vegetables under uncontrolled lighting environment</li>
-													<li>Developed a carrot segmentation model (<b>Mask R-CNN</b>, <b>RestnetXt-101</b>, <b>Detectron2</b>), where the highest F1 score was 93% on validation images of real carrots</li>											
+													<li>Generated synthetic data to <b>reduce</b> the real <b>training images</b> to just <b>250</b>, while maintaining segmentation accuracy.</li>
+													<li>Developed a carrot segmentation model (<b>Mask R-CNN</b>), with an <b>F1</b> score of <b>93%</b> on validation images of real carrots</li>											
 													<li><b>Skills: Python, Tensorflow, OpenCV, Scikit-Learn, Detectron2, GANs, Latex, Git, Azure DevOps.</b></li>
 													<li><a href="https://ntnuopen.ntnu.no/ntnu-xmlui/handle/11250/3023082" style="font-weight: bold;">See master thesis abstract</a></li>
 												</ul>							
@@ -176,7 +203,7 @@
 											<h4>Teaching Assistant for Computer Graphics at NTNU (Norway)</h4> 
 											<p> <b>09/2021 - 12/2021</b><br>
 												<ul>
-													<li>I worked as a Teaching Assistant (TA) for the course <a href="https://www.ntnu.edu/studies/courses/IDIG4002#tab=omEmnet" style="font-weight: bold;">IDIG4002 Computer Graphics</a> at NTNU, Gjøvik.</li>
+													<li>Worked as a Teaching Assistant (TA) for the course <a href="https://www.ntnu.edu/studies/courses/IDIG4002#tab=omEmnet" style="font-weight: bold;">IDIG4002 Computer Graphics</a> at NTNU, Gjøvik.</li>
 													<li>Gave the lab sessions to 39 international master students from the COSI and MACs programs.</li>
 													<li>Gave <b>presentations in English</b>, prepared lab exercises in <a href="https://pbrt.org/users-guide-v4" style="font-weight: bold;">PBRT</a>, supervised students in their assignments and final projects.</li>
 													<li><b>Skills: PBRT, Rendering, Computer Graphics, Teaching.</b></li>
@@ -189,7 +216,7 @@
 											<h4>Image Processing Intern at Vilmorin-Mikado (France)</h4> 
 											<p> <b>06/2021 - 07/2021</b><br>
 												<ul>
-													<li>I worked as an <b>image processing</b> intern for a 6-week summer project for melon <b>segmentation</b>.</li>
+													<li>Worked as an <b>image processing</b> intern for a 6-week summer project for melon <b>segmentation</b>.</li>
 													<li>Developed and tested new <b>segmentation algorithms</b> for different melon typologies.</li>
 													<li><b>Documented code</b> via <b>Git</b> and <b>Azure</b> DevOps.</li>
 													<li><b>Communicated</b> with <b>remote teams</b> in English.</li>
@@ -204,11 +231,11 @@
 											<h4>Quality Assurance Intern at Autocom.mx (Mexico)</h4> 
 											<p> <b>01/2020 - 06/2020</b>
 												<ul>
-													<li>I gained experience in <b>Agile Development</b> as a QA intern for the website Autocom.mx.</li>
-													<li>Wrote technical documentation in English.</li>
-													<li>Carried out <b>frontend</b> and <b>API testing</b> trough <b>Postman</b> and <b>ZenHub</b> (report bugs/enhancements).</li>
+													<li>Gained experience in <b>Agile Development</b> as a QA intern for the website Autocom.mx.</li>
+													<li>Wrote technical <b>documentation</b> in English.</li>
+													<li>Carried out <b>frontend</b> and <b>API testing</b> trough <b>Postman</b> and <b>ZenHub</b> (reported bugs/enhancements).</li>
 													<li>Gathered <b>user feedback</b> (Hotjar insights and phone interviews).</li>
-													<li>Carried out market research and analysis for software features.</li>
+													<li>Carried out <b>market research</b> and analysis for software features.</li>
 													<li>Carried out <b>daily communication</b> with virtual and <b>international teams</b> both in English and Spanish.</li>
 													<li><b>Led a team</b> of 4 people that created the first version of a mathematical model for price rating.</li> 													
 													<li><b>Skills: Quality Assurance, Agile Development, Testing, Postman, Zenhub, Marketplace Research.</b></li>
@@ -220,10 +247,12 @@
 										<div>
 											<h4>Mitacs Globalink Research Internship (Canada)</h4> 
 											<p> <b>05/2019 - 08/2019</b>
-												<li>I worked at University of Regina in Canada for 3 months under the supervision of Dr. Rene V. Mayorga.</li>
-												<li>Implemented Fuzzy Inference Systems, <b>Neural Networks</b>, Neuro-Fuzzy Inference Systems</li>
-												<li>Developed two <b>Image Processing</b> algorithms based on <b>Fuzzy Logic</b> and Edge Detection, for color mapping and image smoothing.</li>													
-												<li><b>Skills: AI, Fuzzy Logic, Image Processing, MATLAB, JavaScript (P5.js).</b></li>
+												<ul>
+													<li>Worked at University of Regina in Canada for 3 months under the supervision of Dr. Rene V. Mayorga.</li>
+													<li>Implemented Fuzzy Inference Systems, <b>Neural Networks</b>, Neuro-Fuzzy Inference Systems</li>
+													<li>Developed and coded two <b>Image Processing algorithms</b>  based on <b>Fuzzy Logic</b> and Edge Detection, for color mapping and image smoothing.</li>													
+													<li><b>Skills: AI, Fuzzy Logic, Image Processing, MATLAB, JavaScript (P5.js).</b></li>
+												</ul>
 											</p>
 										</div>
 									</article>
@@ -231,9 +260,11 @@
 										<div>
 											<h4>Tutor of differential and integral calculus at ITESM Morelia Campus (Mexico)</h4> 
 											<p> <b>08/2016 - 05/2017</b><br>
-												As part of my social service, I worked as a tutor of differential and integral calculus,
-												helping students inside my university to enhance their academic performance in these subjects.
-												<br><b>&bull; Skills: Math, Calculus, Teaching.</b>
+												<ul>
+													<li>Worked as a tutor of differential and integral calculus as part of my social service.</li>
+													<li>Helped students inside my university to enhance their academic performance in these subjects.</li>										
+													<li><b>Skills: Math, Calculus, Teaching.</b></li>
+												</ul>												
 											</p>
 										</div>
 									</article>
@@ -345,9 +376,9 @@
 								<h3>Awards and Scholarships</h3>								
 								<ul>
 									<li><b>2020 - Erasmus + Erasmus Mundus Joint Master Degree scholarship</b> (Norway, France)<br>
-										I was offered a full scholarship for Erasmus Mundus Joint Master's degree in COSI
+										A full scholarship for the Erasmus Mundus Joint Master's degree in COSI
 										(Computational Colour and Spectral Imaging) at Norwegian University of Science and Technology (Norway)
-										and University Jean Monnet (France). I was ranked 2nd out of 172 worldwide applicants.
+										and University Jean Monnet (France). <br> Obtained 2nd rank out of 172 worldwide applicants.
 									</li>
 									<br>
 									<li><b>2019 - CENEVAL Award for Excellence Performance-EGEL</b> (Mexico)<br>
@@ -364,18 +395,18 @@
 												with specific research expertise with faculty at Canadian universities for a twelve (12) week
 												research project of mutual interest.</li>
 										</ul>
-									</li>									
+									</li>
+									<li><b>2018 - COPARMEX Award for Educational Excellence 2018</b> (Mexico)<br>
+										An award given by COPARMEX Michoacán to university students with the highest GPA in the state.
+									</li>
+									<br>
 									<li><b>2015-2018 - Academic Excellence</b> (Mexico)<br>
 										Tecnológico de Monterrey, Morelia Campus, Mexico.<br>
 										An award granted to the top 5% of the students with the highest GPA in their Major.
 									</li>
 									<br>
-									<li><b>2018 - COPARMEX Award for Educational Excellence 2018</b> (Mexico)<br>
-										An award given by COPARMEX Michoacán to university students with the highest GPA in the state.
-									</li>
-									<br>
-									<li><b>2015 - Academic Talent Scholarship</b> (Mexico)<br>
-										A scholarship awarded by Tecnológico de Monterrey during my bachelor studies in Mechatronics Engineering (2015-2020).
+									<li><b>2015-2020 - Academic Talent Scholarship</b> (Mexico)<br>
+										A scholarship awarded by Tecnológico de Monterrey during my bachelor studies in Mechatronics Engineering.
 									</li>
 									
 								</ul>
